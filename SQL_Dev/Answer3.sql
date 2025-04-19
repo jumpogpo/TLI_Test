@@ -1,0 +1,4 @@
+SELECT *
+FROM "benefit_master"
+WHERE sum BETWEEN 100000 AND 500000
+LIMIT 31

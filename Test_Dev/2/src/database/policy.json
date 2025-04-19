@@ -1,0 +1,38 @@
+{
+  "insuredList": [
+    {
+      "insureName": "Mr. A1",
+      "policy": [
+        {
+          "policyNo": "P0003",
+          "status": "A",
+          "agenID": "00000005"
+        }
+      ],
+      "policyNo": "P00031",
+      "policyType": "CL",
+      "status": "A",
+      "agenID": "00000005"
+    },
+
+    {
+      "insureName": "Ms. B2",
+      "policy": [
+        {
+          "policyNo": "P0001",
+          "status": "I",
+          "agenID": "00000006"
+        },
+        {
+          "policyNo": "P0002",
+          "status": "I",
+          "agenID": "00000007"
+        }
+      ],
+      "policyNo": "P00011",
+      "policyType": "CL",
+      "status": "A",
+      "agenID": "00000006"
+    }
+  ]
+}

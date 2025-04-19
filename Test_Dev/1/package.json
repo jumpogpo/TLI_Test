@@ -1,0 +1,20 @@
+{
+  "name": "benefit-rate",
+  "version": "1.0.0",
+  "description": "Benefit Rate Calculator",
+  "main": "main.ts",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "dev": "bun run main.ts",
+    "build": "tsc",
+    "start": "bun run dist/main.js",
+    "clean": "rm -rf dist",
+    "test": "bun test"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
